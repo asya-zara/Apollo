@@ -1,0 +1,123 @@
+.package {
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 10px 40px 0px rgba(99, 117, 138, 0.3);
+    text-align: center;
+    padding-top: 34px;
+    padding-bottom: 47px;
+    margin-bottom: 40px;
+
+    @media (min-width: 768px) {
+        margin-bottom: 0;
+    }
+
+    &.last {
+        margin-bottom: 0;
+    }
+
+
+}
+
+
+
+.package_type {
+    color: #242526;
+    font-size: 12px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.package_price {
+    font-weight: bold;
+    font-size: 48px;
+    color: #242526;
+    margin-bottom: 24px;
+    line-height: 1;
+
+    &:after {
+        content: "c";
+        font-family: 'als_rublregular';
+    }
+
+}
+
+.package_period {
+    color: #242526;
+    font-size: 12px;
+    margin-bottom: 35px;
+}
+
+.package_benefits {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 40px;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+
+        li {
+
+            margin: 0 0 10px 0;
+            padding: 0;
+
+
+            &:before {
+                content: "";
+                width: 12px;
+                height: 12px;
+                background-image: url(../img/icons/ok-icon.png);
+                background-repeat: no-repeat;
+                background-position: left 2px;
+                display: inline-block;
+                margin-right: 10px;
+
+            }
+
+        }
+    }
+}
+
+.button {
+    background-color: rgb(37, 37, 37);
+    box-shadow: 0px 8px 16px 0px rgba(171, 171, 171, 0.5);
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    display: inline-block;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    padding-left: 44px;
+    padding-right: 44px;
+
+    border-radius: 22px;
+
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: @orange;
+        text-decoration: none;
+        color: #fff;
+    }
+
+}
+
+.button--orange {
+    background-color: @orange;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: #ffe400;
+        text-decoration: none;
+        color: #fff;
+    }
+}
