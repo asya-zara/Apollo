@@ -10,5 +10,5 @@
 - owl-carousel
 - html5shiv
 - pagescroll2id
-hr
+***
 Preview: [ссылка на сайт Apollo]( https://asya-zara.github.io/apollo/)
