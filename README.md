@@ -11,4 +11,4 @@
 - html5shiv
 - pagescroll2id
 ***
-Preview: [ссылка на сайт Apollo]( https://asya-zara.github.io/apollo/)
+Preview: [ссылка на проект Apollo]( https://asya-zara.github.io/apollo/)
