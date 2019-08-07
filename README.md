@@ -1,7 +1,7 @@
 # Apollo Project
 
-one-page landing
-tech include:
+
+##tech include:
 - HTML/CSS
 - mobile adaptive
 - Bootstrap 4
