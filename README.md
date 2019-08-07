@@ -2,7 +2,8 @@
 
 one-page landing
 tech include:
-*HTML/CSS
+li
+ *HTML/CSS
 mobile adaptive
 Bootstrap 4
 LESS
